@@ -4,7 +4,7 @@
 /**
  * main -Prints the last digits of a number
  *
- * Returns (0) ; (Success)
+ * Returns: Always 0 (Success)
  */
 int main(void)
 {
