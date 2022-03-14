@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main -Entry point
- * Prints the last digits of a number
+ * main -Prints the last digits of a number
+ *
  * Returns (0) ; (Success)
  */
 int main(void)
