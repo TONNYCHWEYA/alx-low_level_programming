@@ -1,15 +1,15 @@
 #include "main.h"
 /**
  * *_strcpy - copies string to anather string
- * @dest - pointer
- * @src - pointer
+ * @dest: - pointer
+ * @src: - pointer
  * Return: nothing
  */
 char *_strcpy(char *dest, char *src)
 {
 int i;
 i = 0;
-while (src[i] != '\n')
+while (src[i] != '\0')
 {
 dest[i] = src[i];
 i++;
