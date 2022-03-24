@@ -16,13 +16,10 @@ u++;
 m = 0;
 while (src[m] != '\0')
 {
+dest[u] = src[m];
 m++;
+u++;
 }
-int i;
-for (i = 0; i <= m; i++)
-{
-dest[u + i] = src[i];
-}
-dest[u+i] = '\0';
+dest[u] = '\0';
 return (dest);
 }
