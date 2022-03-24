@@ -23,5 +23,6 @@ for (i = 0; i <= m; i++)
 {
 dest[u + i] = src[i];
 }
+dest[u+i] = '\0';
 return (dest);
 }
