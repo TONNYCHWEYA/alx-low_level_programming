@@ -22,4 +22,5 @@ m++;
 u++;
 }
 dest[u] = '\0';
+return (dest);
 }
