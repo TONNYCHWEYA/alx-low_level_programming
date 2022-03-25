@@ -20,7 +20,7 @@ for (i =0; i < n / 2; i++)
 c = *end_c;
 *end_c = *start_c;
 *start_c = c;
-Start_c++;
+start_c++;
 end_c--;
 }
 }
