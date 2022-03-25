@@ -2,7 +2,7 @@
 /**
  * *string_toupper - change string to uppercase
  * @str: points to string
- * Return: nothing
+ * Return: returns char
  */
 char *string_toupper(char *str)
 {
