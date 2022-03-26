@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * *leet - encodes a string into 1337
- * s: points to a character that is changed
+ * @s: points to a character that is changed
  * Return: char
  */
 char *leet(char *s)
