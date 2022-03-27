@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *int _abs(int) -value absolute
- *
+ *_abs - value absolute
+ *@n: returns int
  * Return: Always 0.
  */
 int _abs(int n)
@@ -16,6 +16,6 @@ return (0);
 }
 else
 {
-return(n);
+return (n);
 }
 }
