@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 /**
  * times_table - print times table
  * @n: random number
