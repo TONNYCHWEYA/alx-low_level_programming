@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main -print the name of program
  * @argc: number of counts
@@ -9,6 +8,7 @@
 int main(int argc, char *argv[])
 {
 printf("%s", argv[0]);
+(void)argc;
 printf("\n");
-exit(EXIT_SUCCESS);
+return (0);
 }
