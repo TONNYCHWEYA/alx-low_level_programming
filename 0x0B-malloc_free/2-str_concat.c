@@ -28,15 +28,15 @@ while (s2[l2] != '\0')
 l2++;
 }
 size = l1 + l2 + 1;
-s3 =malloc(sizeof(char) * size);
+s3 = malloc(sizeof(char) * size);
 if (s3 == 0)
-return 0;
+return (0);
 while (s1[u] != '\0')
 {
 s3[u] = s1[u];
 u++;
 }
-while ( s2[m] != '\0')
+while (s2[m] != '\0')
 {
 s3[u] = s2[m];
 u++;
