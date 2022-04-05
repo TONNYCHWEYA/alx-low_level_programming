@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _strdpup - copies a string to a new string
+ * _strdup - copies a string to a new string
  * @str: -points to a string that is to be copied
  * Return: char
  */
