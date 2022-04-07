@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
+#include "main.h"
 /**
  * _isnumber - finds if the string is a number
  * @s: points to a string to be evaluated
@@ -25,7 +25,7 @@ return (0);
 int main(int argc, char *argv[])
 {
 int sum = 0;
-int i = 0;
+int i;
 int error;
 for (i = 1; i < argc; i++)
 {
@@ -33,7 +33,6 @@ error = _isnumber(argv[i]);
 if (argc == 1)
 {
 printf("0\n");
-return (0);
 }
 else if (error == -1)
 {

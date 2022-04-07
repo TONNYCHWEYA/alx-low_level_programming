@@ -4,7 +4,7 @@
  * main - multiplies two numbers
  * @argc: number of arguments
  * @argv: points to array of strings
- * Return: nothing
+ * Return: multiplication answer
  */
 int main(int argc, char *argv[])
 {
